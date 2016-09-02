@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-	int userGuess,			//1 or 0 indicating user guess of heads or tails
+	int userGuess,		
 		coinFlip;			//Randomly generated 0 or 1 indicating coin flip result
 	string headsTails;		//Heads or Tails string giving user output
 		
