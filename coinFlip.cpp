@@ -7,22 +7,23 @@
 */
 
 #include <iostream>
+#include <string>
 #include "Random.h"
 
 using namespace std;
-
+//I added this
 int main()
 {
 	int userGuess,		
 		coinFlip;			//Randomly generated 0 or 1 indicating coin flip result
-	string headsTails;		//Heads or Tails string giving user output
+	string headsTails;		//Heads or Tails
 		
 	seedRandom();			//Seed the randomizer to give good random numbers
 	
 	//Get the users guess to the coin flip
 	cout << "Welcome to the Coin Flip Toss" << endl;
 	cout << "Please enter your choice (0 for heads, 1 for tails) : ";
-	cin >> userGuess;
+	cin >> userGuess; //I added this too
 	
 	//Did the user guess heads or tails
 	if (userGuess == 0)
